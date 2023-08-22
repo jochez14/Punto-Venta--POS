@@ -1,0 +1,1165 @@
+[20-Aug-2023 02:43:11 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 114
+[20-Aug-2023 02:43:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:130
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 130
+[20-Aug-2023 02:48:54 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 114
+[20-Aug-2023 02:48:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:130
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 130
+[20-Aug-2023 02:52:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:135
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 135
+[20-Aug-2023 02:52:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:135
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 135
+[20-Aug-2023 03:01:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'estado' doesn't have a default value in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 54
+[20-Aug-2023 03:01:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'estado' doesn't have a default value in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 54
+[20-Aug-2023 03:02:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'estado' doesn't have a default value in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 54
+[20-Aug-2023 03:04:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:55
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(55): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 55
+[20-Aug-2023 03:05:54 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:56
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(56): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 56
+[20-Aug-2023 03:09:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'estado' doesn't have a default value in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:56
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(56): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 56
+[20-Aug-2023 03:13:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:59
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(59): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 59
+[20-Aug-2023 03:25:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:59
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(59): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 59
+[20-Aug-2023 03:25:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:59
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(59): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 59
+[20-Aug-2023 03:34:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ultimo_login' doesn't have a default value in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:59
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(59): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(177): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 59
+[20-Aug-2023 04:31:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "=>" in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 176
+[20-Aug-2023 04:31:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "=>" in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 176
+[21-Aug-2023 00:37:37 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 114
+[21-Aug-2023 00:37:37 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\php5AB4.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 150
+[21-Aug-2023 00:37:37 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:154
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(154): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1440, 1438)
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 154
+[21-Aug-2023 01:27:48 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 117
+[21-Aug-2023 01:27:49 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\php4CEA.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 153
+[21-Aug-2023 01:27:49 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:157
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(157): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1440, 1438)
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 157
+[21-Aug-2023 01:28:11 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\phpA6B3.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 153
+[21-Aug-2023 01:28:12 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:157
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(157): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1440, 1438)
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 157
+[21-Aug-2023 01:29:52 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\php2F0A.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 153
+[21-Aug-2023 01:29:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:157
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(157): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 500, 500)
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 157
+[21-Aug-2023 01:29:54 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\php3881.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 153
+[21-Aug-2023 01:29:54 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:157
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(157): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 500, 500)
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 157
+[21-Aug-2023 01:29:55 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\php39AB.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 153
+[21-Aug-2023 01:29:55 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:157
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(157): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 500, 500)
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 157
+[21-Aug-2023 01:37:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 281
+[21-Aug-2023 01:37:41 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\php5919.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 156
+[21-Aug-2023 01:37:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:160
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(160): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 500, 500)
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 160
+[21-Aug-2023 01:46:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ultimo_login' doesn't have a default value in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:59
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(59): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(182): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 59
+[21-Aug-2023 01:51:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ultimo_login' doesn't have a default value in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:59
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(59): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(184): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 59
+[21-Aug-2023 02:36:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php:64
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\usuarios.modelo.php(64): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(186): ModeloUsuarios::mdlIngresarUsuario('usuarios', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\usuarios.modelo.php on line 64
+[21-Aug-2023 02:39:25 Europe/Berlin] PHP Warning:  rmdir(vistas/img/usuarios/jorge): Directory not empty in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 456
+[21-Aug-2023 03:29:59 Europe/Berlin] PHP Warning:  unlink(vistas/img/usuarios/admin/890.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 296
+[21-Aug-2023 03:30:58 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[21-Aug-2023 03:31:04 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[21-Aug-2023 03:31:08 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[21-Aug-2023 03:49:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '12/03/1959' for column 'fecha_nacimiento' at row 1 in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:22
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\clientes.controlador.php(28): ModeloClientes::mdlIngresarCliente('clientes', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\clientes.php(280): ControladorClientes::ctrCrearCliente()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 22
+[21-Aug-2023 03:49:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '12/03/1959' for column 'fecha_nacimiento' at row 1 in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:22
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\clientes.controlador.php(28): ModeloClientes::mdlIngresarCliente('clientes', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\clientes.php(280): ControladorClientes::ctrCrearCliente()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 22
+[21-Aug-2023 03:56:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ventas' doesn't have a default value in C:\xampp\htdocs\pos\modelos\productos.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 54
+[21-Aug-2023 04:09:09 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:09:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:55
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(55): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 55
+[21-Aug-2023 04:09:12 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:09:13 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:55
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(55): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 55
+[21-Aug-2023 04:10:31 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:10:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ventas' cannot be null in C:\xampp\htdocs\pos\modelos\productos.modelo.php:56
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(56): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 56
+[21-Aug-2023 04:12:39 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:14:14 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[21-Aug-2023 04:16:19 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\php91BA.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 87
+[21-Aug-2023 04:16:19 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:91
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(91): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 225, 225)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 91
+[21-Aug-2023 04:17:17 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:17:17 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:17:17 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php74A8.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:17:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:71
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(71): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1800, 1800)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 71
+[21-Aug-2023 04:17:20 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:17:21 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:17:21 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php835F.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:17:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:71
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(71): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1800, 1800)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 71
+[21-Aug-2023 04:17:24 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:17:24 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:17:24 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php92E1.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:17:24 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:71
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(71): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1800, 1800)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 71
+[21-Aug-2023 04:19:41 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\phpA8D1.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 87
+[21-Aug-2023 04:19:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:91
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(91): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 225, 225)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 91
+[21-Aug-2023 04:20:51 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:32:34 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[21-Aug-2023 04:33:11 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:33:11 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php62B.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:33:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:71
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(71): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1800, 1800)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 71
+[21-Aug-2023 04:33:15 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[21-Aug-2023 04:33:15 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:33:15 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php14F2.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 67
+[21-Aug-2023 04:33:15 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:71
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(71): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1800, 1800)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 71
+[20-Aug-2023 21:36:16 America/Bogota] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[20-Aug-2023 21:36:17 America/Bogota] PHP Warning:  copy(\\JOZCHEZ\epson20): Failed to open stream: No such file or directory in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[20-Aug-2023 21:36:17 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012023-08-20...')
+#1 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(209): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(288): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:150
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(150): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(565): ModeloVentas::mdlRangoFechasVentas('ventas', '2023-08-19', '2023-08-19')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(126): ControladorVentas::ctrRangoFechasVentas('2023-08-19', '2023-08-19')
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 150
+[21-Aug-2023 04:38:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:150
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(150): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(565): ModeloVentas::mdlRangoFechasVentas('ventas', '2023-08-19', '2023-08-19')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(126): ControladorVentas::ctrRangoFechasVentas('2023-08-19', '2023-08-19')
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 150
+[21-Aug-2023 04:38:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:150
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(150): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(565): ModeloVentas::mdlRangoFechasVentas('ventas', '2023-08-19', '2023-08-19')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(126): ControladorVentas::ctrRangoFechasVentas('2023-08-19', '2023-08-19')
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 150
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 04:38:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:01:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '12/03/1959' for column 'fecha_nacimiento' at row 1 in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:22
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\clientes.controlador.php(28): ModeloClientes::mdlIngresarCliente('clientes', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\clientes.php(280): ControladorClientes::ctrCrearCliente()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 22
+[21-Aug-2023 05:02:01 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '20/08/2023' for column 'fecha_nacimiento' at row 1 in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:22
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\clientes.controlador.php(28): ModeloClientes::mdlIngresarCliente('clientes', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\clientes.php(280): ControladorClientes::ctrCrearCliente()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 22
+[21-Aug-2023 05:02:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '20/08/2023' for column 'fecha_nacimiento' at row 1 in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:22
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\clientes.controlador.php(28): ModeloClientes::mdlIngresarCliente('clientes', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\clientes.php(280): ControladorClientes::ctrCrearCliente()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 22
+[21-Aug-2023 05:03:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'compras' doesn't have a default value in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:22
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\clientes.controlador.php(28): ModeloClientes::mdlIngresarCliente('clientes', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\clientes.php(280): ControladorClientes::ctrCrearCliente()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 22
+[21-Aug-2023 05:08:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ultima_compra' doesn't have a default value in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:25
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(25): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\clientes.controlador.php(28): ModeloClientes::mdlIngresarCliente('clientes', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\clientes.php(280): ControladorClientes::ctrCrearCliente()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 25
+[21-Aug-2023 05:12:00 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ultima_compra' cannot be null in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:27
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(27): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\clientes.controlador.php(28): ModeloClientes::mdlIngresarCliente('clientes', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\clientes.php(280): ControladorClientes::ctrCrearCliente()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 27
+[20-Aug-2023 22:19:49 America/Bogota] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[20-Aug-2023 22:19:49 America/Bogota] PHP Warning:  copy(\\JOZCHEZ\epson20): Failed to open stream: No such file or directory in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[20-Aug-2023 22:19:49 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012023-08-20...')
+#1 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(209): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(288): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 148
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:20:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 141
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 170
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 140
+[21-Aug-2023 05:26:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 163
+[21-Aug-2023 05:39:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:39:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:40:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:40:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 150
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[21-Aug-2023 05:47:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 143
+[20-Aug-2023 23:04:59 America/Bogota] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[20-Aug-2023 23:05:00 America/Bogota] PHP Warning:  copy(\\JOZCHEZ\epson20): Failed to open stream: No such file or directory in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[20-Aug-2023 23:05:00 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012023-08-20...')
+#1 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(209): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(288): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[21-Aug-2023 06:05:28 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 185
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 153
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:05:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 146
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 149
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[21-Aug-2023 06:10:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\vistas\modulos\ventas.php on line 142
+[22-Aug-2023 01:55:17 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:105
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(105): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 105
+[22-Aug-2023 01:55:23 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:105
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(105): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 105
+[22-Aug-2023 01:55:45 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 138
+[22-Aug-2023 01:55:45 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php3E89.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 138
+[22-Aug-2023 01:55:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php:142
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\usuarios.controlador.php(142): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1800, 1800)
+#1 C:\xampp\htdocs\pos\vistas\modulos\usuarios.php(271): ControladorUsuarios::ctrCrearUsuario()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 142
+[22-Aug-2023 02:26:12 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[22-Aug-2023 02:26:16 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[22-Aug-2023 02:26:21 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[21-Aug-2023 19:33:43 America/Bogota] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[21-Aug-2023 19:33:43 America/Bogota] PHP Warning:  copy(\\JOZCHEZ\epson20): Failed to open stream: No such file or directory in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[21-Aug-2023 19:33:43 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012023-08-21...')
+#1 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(209): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(288): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[22-Aug-2023 04:41:57 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:150
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(150): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(577): ModeloVentas::mdlRangoFechasVentas('ventas', '2023-08-21', '2023-08-21')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(73): ControladorVentas::ctrRangoFechasVentas('2023-08-21', '2023-08-21')
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 150
+[22-Aug-2023 04:45:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:150
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(150): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(577): ModeloVentas::mdlRangoFechasVentas('ventas', '2023-08-21', '2023-08-21')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(73): ControladorVentas::ctrRangoFechasVentas('2023-08-21', '2023-08-21')
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 150
+[21-Aug-2023 21:55:51 America/Bogota] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[21-Aug-2023 21:55:51 America/Bogota] PHP Warning:  copy(\\JOZCHEZ\epson20): Failed to open stream: No such file or directory in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[21-Aug-2023 21:55:51 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012023-08-21...')
+#1 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(219): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(292): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[22-Aug-2023 05:05:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[22-Aug-2023 05:05:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[21-Aug-2023 22:13:29 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:56
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(56): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(129): ModeloVentas::mdlIngresarVenta('ventas', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(292): ControladorVentas::ctrCrearVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 56
+[21-Aug-2023 22:13:52 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:56
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(56): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(129): ModeloVentas::mdlIngresarVenta('ventas', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(292): ControladorVentas::ctrCrearVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 56
+[22-Aug-2023 12:16:18 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'impuesto' cannot be null in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:58
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(58): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(129): ModeloVentas::mdlIngresarVenta('ventas', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(296): ControladorVentas::ctrCrearVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 58
+[22-Aug-2023 12:17:18 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'impuesto' cannot be null in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:58
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(58): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(129): ModeloVentas::mdlIngresarVenta('ventas', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(296): ControladorVentas::ctrCrearVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 58
+[22-Aug-2023 12:19:15 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'impuesto' cannot be null in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:58
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(58): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(129): ModeloVentas::mdlIngresarVenta('ventas', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(296): ControladorVentas::ctrCrearVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 58
+[22-Aug-2023 12:26:47 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'impuesto' cannot be null in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:58
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(58): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(129): ModeloVentas::mdlIngresarVenta('ventas', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(296): ControladorVentas::ctrCrearVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 58
+[22-Aug-2023 21:23:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\ventas.modelo.php:154
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\ventas.modelo.php(154): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(577): ModeloVentas::mdlRangoFechasVentas('ventas', '2023-08-22', '2023-08-22')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(73): ControladorVentas::ctrRangoFechasVentas('2023-08-22', '2023-08-22')
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 154
+[22-Aug-2023 22:07:12 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 22:07:42 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 22:08:31 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 22:08:46 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 22:09:02 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 22:09:21 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 22:09:37 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 22:10:15 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[22-Aug-2023 22:10:56 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[22-Aug-2023 22:12:35 Europe/Berlin] PHP Warning:  rmdir(vistas/img/productos/59374): Directory not empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 318
+[22-Aug-2023 22:14:34 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[22-Aug-2023 22:18:22 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[22-Aug-2023 23:24:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$resultado", expecting "function" or "const" in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 57
+[22-Aug-2023 23:25:40 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 23:26:39 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 23:26:58 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
