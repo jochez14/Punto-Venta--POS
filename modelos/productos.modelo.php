@@ -4,10 +4,6 @@ require_once "conexion.php";
 
 class ModeloProductos{
 
-
-	
-
-
 	/*=============================================
 	MOSTRAR PRODUCTOS
 	=============================================*/
@@ -40,24 +36,13 @@ class ModeloProductos{
 
 	}
 
-
-	
-
 	/*=============================================
 	REGISTRO DE PRODUCTO
 	=============================================*/
 	static public function mdlIngresarProducto($tabla, $datos){
 
-		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(id_categoria, codigo, descripcion, imagen, stock, precio_compra, precio_venta, ventas) VALUES (:id_categoria, :codigo, :descripcion, :imagen, :stock, :precio_compra, :precio_venta , :ventas)");
+		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(id_categoria, codigo, descripcion, imagen, stock, precio_compra, precio_venta) VALUES (:id_categoria, :codigo, :descripcion, :imagen, :stock, :precio_compra, :precio_venta)");
 
-        $stmt_verificar = Conexion::conectar()->prepare("SELECT id FROM $tabla WHERE codigo = :codigo");
-    $stmt_verificar->bindParam(":codigo", $datos["codigo"], PDO::PARAM_STR);
-    $stmt_verificar->execute();
-
-    if ($stmt_verificar->rowCount() > 0) {
-        // El código ya existe, retornar un error o tomar alguna acción apropiada
-        return "codigo_duplicado";
-    }
 		$stmt->bindParam(":id_categoria", $datos["id_categoria"], PDO::PARAM_INT);
 		$stmt->bindParam(":codigo", $datos["codigo"], PDO::PARAM_STR);
 		$stmt->bindParam(":descripcion", $datos["descripcion"], PDO::PARAM_STR);
@@ -65,9 +50,6 @@ class ModeloProductos{
 		$stmt->bindParam(":stock", $datos["stock"], PDO::PARAM_STR);
 		$stmt->bindParam(":precio_compra", $datos["precio_compra"], PDO::PARAM_STR);
 		$stmt->bindParam(":precio_venta", $datos["precio_venta"], PDO::PARAM_STR);
-		$stmt->bindParam(":ventas", $datos["ventas"], PDO::PARAM_INT);
-		$datos["ventas"] = 0;
-
 
 		if($stmt->execute()){
 
@@ -83,21 +65,13 @@ class ModeloProductos{
 		$stmt = null;
 
 	}
-	
-
-
-	
-	
-
-
 
 	/*=============================================
 	EDITAR PRODUCTO
 	=============================================*/
 	static public function mdlEditarProducto($tabla, $datos){
 
-		$stmt = Conexion::conectar()->prepare("UPDATE $tabla SET id_categoria = :id_categoria, descripcion = :descripcion, imagen = :imagen, stock = :stock, precio_compra = :precio_compra, precio_venta = :precio_venta, fecha = NOW() WHERE codigo = :codigo");
-
+		$stmt = Conexion::conectar()->prepare("UPDATE $tabla SET id_categoria = :id_categoria, descripcion = :descripcion, imagen = :imagen, stock = :stock, precio_compra = :precio_compra, precio_venta = :precio_venta WHERE codigo = :codigo");
 
 		$stmt->bindParam(":id_categoria", $datos["id_categoria"], PDO::PARAM_INT);
 		$stmt->bindParam(":codigo", $datos["codigo"], PDO::PARAM_STR);
@@ -106,7 +80,6 @@ class ModeloProductos{
 		$stmt->bindParam(":stock", $datos["stock"], PDO::PARAM_STR);
 		$stmt->bindParam(":precio_compra", $datos["precio_compra"], PDO::PARAM_STR);
 		$stmt->bindParam(":precio_venta", $datos["precio_venta"], PDO::PARAM_STR);
-		$stmt->bindParam(":fecha", $datos["fecha"], PDO::PARAM_STR);
 
 		if($stmt->execute()){
 

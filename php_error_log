@@ -1440,3 +1440,47 @@ Stack trace:
 #5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
 #6 {main}
   thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 06:39:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(495): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 06:39:57 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/3543/796.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 219
+[24-Aug-2023 06:39:57 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(495): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 06:40:38 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/3543/796.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 219
+[24-Aug-2023 06:40:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(495): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 06:41:13 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/3543/796.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 194
+[24-Aug-2023 06:41:13 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(258): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(495): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 06:41:53 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/3543/796.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 194
