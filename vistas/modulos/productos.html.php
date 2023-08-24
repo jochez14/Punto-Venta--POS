@@ -46,7 +46,7 @@
            <th>Descripción</th>
            <th>Categoría</th>
            <th>Stock</th>
-         
+           <th>Precio de compra</th>
            <th>Precio de venta</th>
            <th>Agregado</th>
            <th>Acciones</th>
@@ -274,7 +274,7 @@ MODAL AGREGAR PRODUCTO
 
                   <!-- CHECKBOX PARA PORCENTAJE -->
 
-                  <div class="col-xs-6">
+                  <!-- <div class="col-xs-6">
                     
                     <div class="form-group">
                       
@@ -286,11 +286,11 @@ MODAL AGREGAR PRODUCTO
 
                     </div>
 
-                  </div>
+                  </div> -->
 
                   <!-- ENTRADA PARA PORCENTAJE -->
 
-                  <div class="col-xs-6" style="padding:0">
+                  <!-- <div class="col-xs-6" style="padding:0">
                     
                     <div class="input-group">
                       
@@ -304,7 +304,7 @@ MODAL AGREGAR PRODUCTO
 
                 </div>
 
-            </div>
+            </div> -->
 
             <!-- ENTRADA PARA SUBIR FOTO -->
 

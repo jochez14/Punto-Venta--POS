@@ -2,6 +2,8 @@
 
 header('Content-Type: application/json');
 
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 require_once "../controladores/productos.controlador.php";
 require_once "../modelos/productos.modelo.php";
@@ -10,6 +12,8 @@ require_once "../controladores/categorias.controlador.php";
 require_once "../modelos/categorias.modelo.php";
 
 class AjaxProductos{
+
+  
 
   /*=============================================
   GENERAR CÓDIGO A PARTIR DE ID CATEGORIA

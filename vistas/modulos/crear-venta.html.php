@@ -215,7 +215,7 @@
                   
                       <select class="form-control" id="nuevoMetodoPago" name="nuevoMetodoPago" required>
                         <option value="">Seleccione método de pago</option>
-                        <option value="efectivo">Efectivo</option>
+                        <option value="efectivo" >Efectivo</option>
                         <option value="tarjetaCredito">Tarjeta Crédito</option>
                         <option value="tarjetaDebito">Tarjeta Débito</option>                  
                       </select>    

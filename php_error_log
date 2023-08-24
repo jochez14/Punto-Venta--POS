@@ -1163,3 +1163,280 @@ Stack trace:
 [22-Aug-2023 23:25:40 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
 [22-Aug-2023 23:26:39 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
 [22-Aug-2023 23:26:58 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 01:55:04 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 01:56:35 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 01:56:48 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 03:02:03 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[23-Aug-2023 03:03:03 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 03:03:16 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 03:03:31 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 04:14:05 Europe/Berlin] PHP Warning:  Undefined array key "nuevoPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 29
+[23-Aug-2023 04:25:58 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 04:26:23 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 04:29:08 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[22-Aug-2023 21:40:58 America/Bogota] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[22-Aug-2023 21:40:58 America/Bogota] PHP Warning:  copy(\\JOZCHEZ\epson20): Failed to open stream: No such file or directory in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[22-Aug-2023 21:40:58 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012023-08-22...')
+#1 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(219): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[23-Aug-2023 05:30:11 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 05:30:22 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 05:31:03 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 05:31:55 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 05:58:09 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 05:58:20 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 05:58:34 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 05:58:46 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 06:04:12 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 06:04:53 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 06:05:08 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 06:08:21 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 06:33:36 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 06:33:59 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 22:00:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:00:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:01:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:01:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:01:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:01:27 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:01:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:01:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 516
+[23-Aug-2023 22:01:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 521
+[23-Aug-2023 22:01:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:01:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 535
+[23-Aug-2023 22:02:01 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '0000-00-00 00:00:00' for column 'ultima_compra' at row 1 in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:143
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(143): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(491): ModeloClientes::mdlActualizarCliente('clientes', 'ultima_compra', '0000-00-00 00:0...', '11')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(130): ControladorVentas::ctrEliminarVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 143
+[23-Aug-2023 22:02:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '0000-00-00 00:00:00' for column 'ultima_compra' at row 1 in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:143
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(143): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(491): ModeloClientes::mdlActualizarCliente('clientes', 'ultima_compra', '0000-00-00 00:0...', '11')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(130): ControladorVentas::ctrEliminarVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 143
+[23-Aug-2023 22:02:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '0000-00-00 00:00:00' for column 'ultima_compra' at row 1 in C:\xampp\htdocs\pos\modelos\clientes.modelo.php:143
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\clientes.modelo.php(143): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(491): ModeloClientes::mdlActualizarCliente('clientes', 'ultima_compra', '0000-00-00 00:0...', '11')
+#2 C:\xampp\htdocs\pos\vistas\modulos\ventas.php(130): ControladorVentas::ctrEliminarVenta()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\clientes.modelo.php on line 143
+[23-Aug-2023 22:05:59 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 22:09:25 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 22:30:19 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 22:37:16 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 167
+[23-Aug-2023 22:37:16 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 215
+[23-Aug-2023 22:37:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(220): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[23-Aug-2023 22:37:33 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 167
+[23-Aug-2023 22:37:33 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\phpD869.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 201
+[23-Aug-2023 22:37:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:203
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(203): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 225, 225)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 203
+[23-Aug-2023 22:39:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorProductos::ctrEditarProducto() in C:\xampp\htdocs\pos\vistas\modulos\productos.php:490
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include()
+#1 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\pos\vistas\modulos\productos.php on line 490
+[23-Aug-2023 22:39:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorProductos::ctrEditarProducto() in C:\xampp\htdocs\pos\vistas\modulos\productos.php:490
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include()
+#1 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in C:\xampp\htdocs\pos\vistas\modulos\productos.php on line 490
+[23-Aug-2023 22:40:56 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[23-Aug-2023 22:41:08 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/90284/396.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 317
+[23-Aug-2023 22:44:13 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 01:55:59 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 01:59:45 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 02:01:47 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 02:10:30 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 167
+[24-Aug-2023 02:12:50 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 167
+[24-Aug-2023 02:13:05 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 167
+[24-Aug-2023 02:15:53 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 256
+[24-Aug-2023 02:15:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(260): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 02:16:35 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 256
+[24-Aug-2023 02:16:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(260): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 02:20:04 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 04:27:07 Europe/Berlin] PHP Warning:  imagecreatefrompng(): &quot;C:\xampp\tmp\php1E12.tmp&quot; is not a valid PNG file in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 87
+[24-Aug-2023 04:27:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\pos\controladores\productos.controlador.php:91
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(91): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 225, 225)
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(290): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 91
+[24-Aug-2023 04:34:55 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(290): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[24-Aug-2023 04:36:40 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 04:37:04 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 04:43:10 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 04:44:06 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 04:54:00 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 04:54:27 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:01:10 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\Punto-Venta--POS\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:01:49 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\Punto-Venta--POS\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:06:30 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:10:11 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:15:36 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:18:17 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:24:16 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:30:22 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:30:54 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:32:18 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:32:36 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 166
+[24-Aug-2023 05:41:07 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 279
+[24-Aug-2023 05:41:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 05:41:38 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/32435/862.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 219
+[24-Aug-2023 05:41:38 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 279
+[24-Aug-2023 05:41:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 05:48:18 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/32435/862.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 219
+[24-Aug-2023 05:48:18 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 279
+[24-Aug-2023 05:48:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 05:48:36 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/32435/862.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 219
+[24-Aug-2023 05:48:36 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 279
+[24-Aug-2023 05:48:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 05:48:40 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/32435/862.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 219
+[24-Aug-2023 05:48:40 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 279
+[24-Aug-2023 05:48:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 05:49:21 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/32435/862.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 219
+[24-Aug-2023 05:49:21 Europe/Berlin] PHP Warning:  Undefined array key "editarPrecioCompra" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 279
+[24-Aug-2023 05:49:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(490): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
+[24-Aug-2023 06:36:32 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/32435/718.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 219
+[24-Aug-2023 06:36:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\pos\modelos\productos.modelo.php:111
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(111): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(283): ModeloProductos::mdlEditarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(495): ControladorProductos::ctrEditarProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111

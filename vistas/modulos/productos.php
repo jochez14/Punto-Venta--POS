@@ -213,7 +213,7 @@ MODAL AGREGAR PRODUCTO
                   
                     <span class="input-group-addon"><i class="fa fa-arrow-down"></i></span> 
 
-                    <input type="number" class="form-control input-lg" id="nuevoPrecioVenta" name="nuevoPrecioVenta" step="any" min="0" placeholder="Precio de venta" required>
+                    <input type="number" class="form-control input-lg" id="nuevoPrecioVenta" name="nuevoPrecioVenta" step="any" min="0" placeholder="Precio de venta" >
 
                   </div>
                 
@@ -395,17 +395,17 @@ MODAL EDITAR PRODUCTO
 
              <div class="form-group row">
 
-<div class="col-xs-6">
+                <div class="col-xs-6">
+                
+                  <div class="input-group">
+                  
+                    <span class="input-group-addon"><i class="fa fa-arrow-up"></i></span> 
 
-  <div class="input-group">
-  
-    <span class="input-group-addon"><i class="fa fa-arrow-up"></i></span> 
+                    <input type="number" class="form-control input-lg" id="editarPrecioCompra" name="editarPrecioCompra" step="any" min="0" required>
 
-    <input type="number" class="form-control input-lg" id="nuevoPrecioCompra" name="nuevoPrecioCompra" step="any" min="0" placeholder="Precio de compra" required>
+                  </div>
 
-  </div>
-
-</div>
+                </div>
 
                 <!-- ENTRADA PARA PRECIO VENTA -->
 
@@ -415,13 +415,14 @@ MODAL EDITAR PRODUCTO
                   
                     <span class="input-group-addon"><i class="fa fa-arrow-down"></i></span> 
 
-                    <input type="number" class="form-control input-lg" id="editarPrecioVenta" name="editarPrecioVenta" step="any" min="0" readonly required>
+                    <input type="number" class="form-control input-lg" id="editarPrecioVenta" name="editarPrecioVenta" step="any" min="0" >
 
                   </div>
                 
                   <br>
 
                   <!-- CHECKBOX PARA PORCENTAJE -->
+
                   <div class="col-xs-6">
                     
                     <div class="form-group">
@@ -435,7 +436,6 @@ MODAL EDITAR PRODUCTO
                     </div>
 
                   </div>
-                  
 
                   <!-- ENTRADA PARA PORCENTAJE -->
 
@@ -443,7 +443,7 @@ MODAL EDITAR PRODUCTO
                     
                     <div class="input-group">
                       
-                      <input type="number" class="form-control input-lg nuevoPorcentaje" min="0" value="40" required>
+                      <input type="number" class="form-control input-lg nuevoPorcentaje" min="0" value="40" requi>
 
                       <span class="input-group-addon"><i class="fa fa-percent"></i></span>
 
@@ -454,7 +454,6 @@ MODAL EDITAR PRODUCTO
                 </div>
 
             </div>
-
 
             <!-- ENTRADA PARA SUBIR FOTO -->
 

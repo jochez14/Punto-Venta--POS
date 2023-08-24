@@ -161,10 +161,35 @@ class ControladorProductos{
 
 		if(isset($_POST["editarDescripcion"])){
 
-			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["editarDescripcion"]) &&
-			   preg_match('/^[0-9]+$/', $_POST["editarStock"]) &&	
-			   preg_match('/^[0-9.]+$/', $_POST["editarPrecioCompra"]) &&
-			   preg_match('/^[0-9.]+$/', $_POST["editarPrecioVenta"])){
+			// Validar si los campos tienen contenido antes de aplicar las validaciones
+			$isValid = true;
+	
+			if(!empty($_POST["editarDescripcion"])){
+				if(!preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["editarDescripcion"])){
+					$isValid = false;
+				}
+			}
+	
+			if(!empty($_POST["editarStock"])){
+				if(!preg_match('/^[0-9]+$/', $_POST["editarStock"])){
+					$isValid = false;
+				}
+			}
+	
+			if(!empty($_POST["editarPrecioCompra"])){
+				if(!preg_match('/^[0-9.]+$/', $_POST["editarPrecioCompra"])){
+					$isValid = false;
+				}
+			}
+	
+			if(!empty($_POST["editarPrecioVenta"])){
+				if(!preg_match('/^[0-9.]+$/', $_POST["editarPrecioVenta"])){
+					$isValid = false;
+				}
+			}
+	
+			if($isValid){
+  
 
 		   		/*=============================================
 				VALIDAR IMAGEN

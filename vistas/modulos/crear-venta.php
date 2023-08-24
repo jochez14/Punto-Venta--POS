@@ -140,14 +140,14 @@ if($_SESSION["perfil"] == "Especial"){
 
                     <?php
 
-                      $item = null;
-                      $valor = null;
+$item = null;
+$valor = null;
+$clientes = ControladorClientes::ctrMostrarClientes($item, $valor);
 
-                      $categorias = ControladorClientes::ctrMostrarClientes($item, $valor);
+foreach ($clientes as $key => $cliente) {
+  $selected = ($cliente["id"] == 13) ? "selected" : "";
+  echo '<option value="'.$cliente["id"].'" '.$selected.'>'.$cliente["nombre"].'</option>';
 
-                       foreach ($categorias as $key => $value) {
-
-                         echo '<option value="'.$value["id"].'">'.$value["nombre"].'</option>';
 
                        }
 
@@ -258,7 +258,7 @@ if($_SESSION["perfil"] == "Especial"){
                   
                       <select class="form-control" id="nuevoMetodoPago" name="nuevoMetodoPago" required>
                         <option value="">Seleccione método de pago</option>
-                        <option value="Efectivo">Efectivo</option>
+                        <option value="Efectivo"  >Efectivo</option>
                         <option value="TC">Tarjeta Crédito</option>
                         <option value="TD">Tarjeta Débito</option>                  
                       </select>    
