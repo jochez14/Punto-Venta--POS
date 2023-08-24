@@ -1484,3 +1484,74 @@ Stack trace:
 #6 {main}
   thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 111
 [24-Aug-2023 06:41:53 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/3543/796.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 194
+[24-Aug-2023 22:18:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ventas' doesn't have a default value in C:\xampp\htdocs\pos\modelos\productos.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 54
+[24-Aug-2023 22:19:55 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ventas' doesn't have a default value in C:\xampp\htdocs\pos\modelos\productos.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 54
+[24-Aug-2023 22:22:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ventas' doesn't have a default value in C:\xampp\htdocs\pos\modelos\productos.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 54
+[24-Aug-2023 22:24:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ventas' doesn't have a default value in C:\xampp\htdocs\pos\modelos\productos.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 54
+[24-Aug-2023 22:25:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ventas' doesn't have a default value in C:\xampp\htdocs\pos\modelos\productos.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 54
+[24-Aug-2023 22:27:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ventas' doesn't have a default value in C:\xampp\htdocs\pos\modelos\productos.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\pos\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 54
+[24-Aug-2023 22:36:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'ventas' doesn't have a default value in C:\xampp\htdocs\puntoventa\modelos\productos.modelo.php:54
+Stack trace:
+#0 C:\xampp\htdocs\puntoventa\modelos\productos.modelo.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\puntoventa\controladores\productos.controlador.php(109): ModeloProductos::mdlIngresarProducto('productos', Array)
+#2 C:\xampp\htdocs\puntoventa\vistas\modulos\productos.php(291): ControladorProductos::ctrCrearProducto()
+#3 C:\xampp\htdocs\puntoventa\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\puntoventa\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\puntoventa\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\puntoventa\modelos\productos.modelo.php on line 54
+[24-Aug-2023 22:46:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "else", expecting "function" or "const" in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 65

@@ -39,10 +39,20 @@ class ModeloProductos{
 	/*=============================================
 	REGISTRO DE PRODUCTO
 	=============================================*/
+	
+
 	static public function mdlIngresarProducto($tabla, $datos){
 
-		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(id_categoria, codigo, descripcion, imagen, stock, precio_compra, precio_venta) VALUES (:id_categoria, :codigo, :descripcion, :imagen, :stock, :precio_compra, :precio_venta)");
+		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(id_categoria, codigo, descripcion, imagen, stock, precio_compra, precio_venta, ventas) VALUES (:id_categoria, :codigo, :descripcion, :imagen, :stock, :precio_compra, :precio_venta , :ventas)");
 
+        $stmt_verificar = Conexion::conectar()->prepare("SELECT id FROM $tabla WHERE codigo = :codigo");
+    $stmt_verificar->bindParam(":codigo", $datos["codigo"], PDO::PARAM_STR);
+    $stmt_verificar->execute();
+
+    if ($stmt_verificar->rowCount() > 0) {
+        // El código ya existe, retornar un error o tomar alguna acción apropiada
+        return "codigo_duplicado";
+    }
 		$stmt->bindParam(":id_categoria", $datos["id_categoria"], PDO::PARAM_INT);
 		$stmt->bindParam(":codigo", $datos["codigo"], PDO::PARAM_STR);
 		$stmt->bindParam(":descripcion", $datos["descripcion"], PDO::PARAM_STR);
@@ -50,8 +60,12 @@ class ModeloProductos{
 		$stmt->bindParam(":stock", $datos["stock"], PDO::PARAM_STR);
 		$stmt->bindParam(":precio_compra", $datos["precio_compra"], PDO::PARAM_STR);
 		$stmt->bindParam(":precio_venta", $datos["precio_venta"], PDO::PARAM_STR);
+		$stmt->bindParam(":ventas", $datos["ventas"], PDO::PARAM_INT);
+		$datos["ventas"] = 0;
+
 
 		if($stmt->execute()){
+
 
 			return "ok";
 
