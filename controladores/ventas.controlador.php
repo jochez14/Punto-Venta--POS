@@ -586,6 +586,7 @@ class ControladorVentas{
 
 	public function ctrDescargarReporte(){
 
+		
 		if(isset($_GET["reporte"])){
 
 			

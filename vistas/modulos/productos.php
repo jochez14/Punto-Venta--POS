@@ -421,7 +421,7 @@ MODAL EDITAR PRODUCTO
                 
                   <br>
 
-                  <!-- CHECKBOX PARA PORCENTAJE -->
+                  <!-- CHECKBOX PARA PORCENTAJE
 
                   <div class="col-xs-6">
                     
@@ -437,9 +437,9 @@ MODAL EDITAR PRODUCTO
 
                   </div>
 
-                  <!-- ENTRADA PARA PORCENTAJE -->
+                  ENTRADA PARA PORCENTAJE -->
 
-                  <div class="col-xs-6" style="padding:0">
+                 <!-- <div class="col-xs-6" style="padding:0">
                     
                     <div class="input-group">
                       
@@ -451,9 +451,9 @@ MODAL EDITAR PRODUCTO
 
                   </div>
 
-                </div>
+                </div> -->
 
-            </div>
+            </div> 
 
             <!-- ENTRADA PARA SUBIR FOTO -->
 
