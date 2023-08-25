@@ -588,11 +588,19 @@ class ControladorVentas{
 
 		if(isset($_GET["reporte"])){
 
+			
+			$fechaActual = date("Y-m-d");
+			$fechaReporte = $fechaActual;
+			
+
 			$tabla = "ventas";
 
 			if(isset($_GET["fechaInicial"]) && isset($_GET["fechaFinal"])){
-
+				$fechaReporte = $_GET["fechaInicial"]; // Usar la fecha inicial para el nombre del archivo
 				$ventas = ModeloVentas::mdlRangoFechasVentas($tabla, $_GET["fechaInicial"], $_GET["fechaFinal"]);
+			
+
+				
 
 			}else{
 
@@ -602,13 +610,19 @@ class ControladorVentas{
 				$ventas = ModeloVentas::mdlMostrarVentas($tabla, $item, $valor);
 
 			}
+			 // Calcular la suma total de ventas
+			 $sumaTotal = 0;
+			 foreach ($ventas as $venta) {
+				 $sumaTotal += $venta["total"];
+			 }
+	 
 
 
 			/*=============================================
 			CREAMOS EL ARCHIVO DE EXCEL
 			=============================================*/
-
-			$Name = $_GET["reporte"].'.xls';
+			$Name = $_GET["reporte"]. "_" . $fechaReporte . '.xls';
+			
 
 			header('Expires: 0');
 			header('Cache-control: private');
@@ -676,6 +690,12 @@ class ControladorVentas{
 
 
 			echo "</table>";
+
+			echo '<tr>';
+			echo '<td colspan="9" style="text-align:right; border:1px solid #eee;"><strong>SUMA TOTAL:</strong></td>';
+			echo '<td style="font-weight:bold; border:1px solid #eee;">$ ' . number_format($sumaTotal, 2) . '</td>';
+			echo '</tr>';
+			
 
 		}
 
