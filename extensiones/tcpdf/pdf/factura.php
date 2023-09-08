@@ -54,42 +54,85 @@ $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8',
 $pdf->startPageGroup();
 
 $pdf->AddPage();
+$pdf->SetMargins(10, 10, 10); 
 
+
+
+
+
+$imagenURL = 'https://scontent.fmlm3-1.fna.fbcdn.net/v/t39.30808-6/296442149_5267192306697873_5685084400771114106_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeGvnHIx_mNSBgyrNZj8uMmA7NB_MyUCc4_s0H8zJQJzj2MGlitOWL71cFCT2gDEFnogymsNBtluHey8EdKNUYdR&_nc_ohc=__vbVW1GYbAAX_IWvcG&_nc_oc=AQn8Nlj6FJ3kkeLzwrxKWU8vG0YOPACfUZEvKM7oQmBNmW6dcb0OFb7M1amwKw31L2aLCy-oXdBv0rdBPTA1-MvS&_nc_ht=scontent.fmlm3-1.fna&oh=00_AfCmGXIwkCv-rHAmUPZ2dOYphHkunEQoBtkf9kTjkAYWuQ&oe=64FF713E';
+
+$pdf->Image($imagenURL, 10, 10, 30, '', 'JPG', '', 'T', false, 300, '', false, false, 0, false, false, false);
 // ---------------------------------------------------------
 
 $bloque1 = <<<EOF
 
 	<table>
 		
+	<tr>
+    <td>
+        <img src="https://scontent.fmlm3-1.fna.fbcdn.net/v/t39.30808-6/296442149_5267192306697873_5685084400771114106_n.jpg" width="30" height="30">
+    </td>
+</tr>
+<tr>
+    <td style="text-align:right;">
+        <strong>FERRETERA EL FOCO</strong>
+    </td>
+</tr>
+
+
+<br><br><br>
+
 		<tr>
 			
-			<td style="width:150px"><img src="images/logo-negro-bloque.png"></td>
-
-			<td style="background-color:white; width:140px">
-				
-				<div style="font-size:8.5px; text-align:right; line-height:15px;">
+		<div style="font-size:8.5px; text-align:right; line-height:15px;">
 					
-					<br>
-					NIT: 71.759.963-9
+				
 
 					<br>
 					Dirección: Calle Av Padre Hidalgo 224, Sta Ana Pacueco
 
 				</div>
 
+
+				<div style="font-size:8.5px; text-align:right; line-height:15px;">
+					
+					
+					Teléfono: 352 526 1470
+					
+					
+				</div>
+
+		<p><strong>RFC emisor:</strong> <span style="font-size:10px;">MASG680124B34</span></p>
+<p><strong>Nombre emisor:</strong> <span style="font-size:3px">GRACIELA MARTINEZ SANDOVAL</span></p>
+<p><strong>RFC receptor:</strong> <span style="font-size:6.5px;">“PUBLICO EN GENERAL”</span></p>
+<p><strong>Codigo postal del receptor:</strong> <span style="font-size:6.5px;">36910</span></p>
+<p><strong>Regimen fiscal receptor:</strong> <span style="font-size:6.5px;">Sin obligaciones fiscales</span></p>
+<p><strong>Uso CFDI:</strong> <span style="font-size:6.5px;">Sin efectos fiscales</span></p>
+
+		
+
+
+<br><br>
+
+<p><strong>Folio fiscal::</strong> <span style="font-size:6.5px;">MASG680124B34</span></p>
+<p><strong>Codigo Postal, fecha :</strong> <span style="font-size:6.5px"> 36910  $fecha</span></p>
+<p><strong>RFC receptor:</strong> <span style="font-size:6.5px;"></span></p>
+<p><strong>Nombre receptor:</strong> <span style="font-size:6.5px;">“PUBLICO EN GENERAL”</span></p>
+<p><strong>Efecto de comprobante:</strong> <span style="font-size:6.5px;">Ingreso</span></p>
+<p><strong>Regimen fiscal receptor:</strong> <span style="font-size:6.5px;">Incorporacion Fiscal</span></p>
+<p><strong>Exportancion:</strong> <span style="font-size:6.5px;">No aplica</span></p>
+
+
+			<td style="background-color:white; width:140px">
+				
+				
+
 			</td>
 
 			<td style="background-color:white; width:140px">
 
-				<div style="font-size:8.5px; text-align:right; line-height:15px;">
-					
-					<br>
-					Teléfono: 352 526 1470
-					
-					<br>
-					joroes59@prodigy.net.mx
-
-				</div>
+				
 				
 			</td>
 
@@ -114,8 +157,12 @@ $bloque2 = <<<EOF
 			<td style="width:540px"><img src="images/back.jpg"></td>
 		
 		</tr>
+		
 
 	</table>
+
+
+
 
 	<table style="font-size:10px; padding:5px 10px;">
 	
@@ -279,6 +326,12 @@ $bloque5 = <<<EOF
 			</td>
 
 		</tr>
+
+<br><br><br><br><br><br><br><br><br><br>
+		
+
+
+
 
 
 	</table>
