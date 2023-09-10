@@ -87,14 +87,6 @@ $pdf->SetFont('', '', 10);
 $pdf->Cell(0, 0, '36910 ' . $fecha, 0, 1, 'L');; // Ajusta el último parámetro a 1 para que avance a la siguiente línea
 
 $pdf->SetX(115);
-$pdf->SetFont('', 'B', 10);  // Ajusta manualmente la posición X para alinear a la derecha
-$pdf->MultiCell(0, 0, 'RFC receptor:', 0, 'L');
-
-$pdf->SetFont('', '', 10);
-$pdf->SetX(115);
-$pdf->SetFont('', 'B', 10); 
-$pdf->MultiCell(0, 0, 'Nombre receptor:', 0, 'L');
-$pdf->SetX(115);
 
 
 $pdf->SetFont('', '', 10); 
