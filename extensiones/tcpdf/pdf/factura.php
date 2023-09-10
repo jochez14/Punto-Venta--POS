@@ -56,8 +56,87 @@ $pdf->startPageGroup();
 $pdf->AddPage();
 $pdf->SetMargins(10, 10, 10); 
 
+$pdf->SetFont('helvetica', 'B', 12);
+$pdf->Cell(0, 20, 'FERRETERA EL FOCO', 0, 1, 'C'); 
+$pdf->SetFont('helvetica', 14);
+
+$pdf->SetFont('helvetica', '', 10);
 
 
+
+$pdf->MultiCell(0, 0, '', 0, 'L');
+$pdf->MultiCell(0, 0, '', 0, 'L');
+$pdf->MultiCell(0, 0, '', 0, 'L');
+$pdf->MultiCell(0, 0, '', 0, 'L');
+$pdf->MultiCell(0, 0, '', 0, 'L');
+$pdf->MultiCell(0, 0, '', 0, 'L');
+$pdf->MultiCell(0, 0, '', 0, 'L');
+$pdf->MultiCell(0, 0, '', 0, 'L');
+
+
+
+
+$pdf->SetY(60);
+// $pdf->MultiCell(0, 0, 'Folio fiscal: MASG680124B34', 0, 'L');
+$pdf->SetX(115); // Ajusta manualmente la posición X para alinear a la derecha
+
+$pdf->SetFont('', 'B', 10);
+$pdf->Cell(47, 0, 'Codigo Postal, fecha :', 0, 0, 'L'); // Ancho de 60 para el primer Cell
+
+$pdf->SetFont('', '', 10);
+$pdf->Cell(0, 0, '36910 ' . $fecha, 0, 1, 'L');; // Ajusta el último parámetro a 1 para que avance a la siguiente línea
+
+$pdf->SetX(115);
+$pdf->SetFont('', 'B', 10);  // Ajusta manualmente la posición X para alinear a la derecha
+$pdf->MultiCell(0, 0, 'RFC receptor:', 0, 'L');
+
+$pdf->SetFont('', '', 10);
+$pdf->SetX(115);
+$pdf->SetFont('', 'B', 10); 
+$pdf->MultiCell(0, 0, 'Nombre receptor:', 0, 'L');
+$pdf->SetX(115);
+
+
+$pdf->SetFont('', '', 10); 
+$pdf->SetFont('', 'B', 10);
+$pdf->Cell(40, 0, 'Efecto de comprobante:', 0, 0, 'L'); // Establece un ancho específico para la primera celda
+
+$pdf->SetFont('', '', 10);
+
+// Espacio entre las celdas
+$pdf->Cell(5); // Ajusta el valor según el espacio deseado
+
+$pdf->Cell(0, 0, ' Ingreso', 0, 1, 'L'); // Establece un ancho flexible para la segunda celda y usa '1' para forzar un salto de línea
+
+
+
+$pdf->SetX(115);
+
+$pdf->SetFont('', 'B', 10);
+
+// Imprime el primer Cell
+$pdf->Cell(0, 0, 'Regimen fiscal receptor:', 0, 0, 'L'); // El último 0 en el cuarto parámetro evita que se añada un salto de línea
+
+$pdf->SetFont('', '', 10);
+
+// Establece manualmente la posición X para el segundo Cell
+$pdf->SetX($pdf->GetX() - 39); // Puedes ajustar el valor negativo según tus necesidades
+
+// Imprime el segundo Cell
+$pdf->Cell(0, 0, 'Incorporacion Fiscal', 0, 1, 'L');
+
+
+
+$pdf->SetX(115);
+
+
+$anchoPrimeraCelda = 40; // Define el ancho de la primera celda
+$alturaPrimeraCelda = $pdf->GetY();
+$pdf->SetFont('', 'B', 10);
+$pdf->Cell($anchoPrimeraCelda, 0, 'Exportacion:', 0, 'L');
+$pdf->SetFont('', '', 10);
+$pdf->SetXY(100 + $anchoPrimeraCelda, $alturaPrimeraCelda); // Establece posición X e Y para la segunda celda
+$pdf->Cell(0, 0, 'No aplica', 0, 'L');
 
 
 $imagenURL = 'https://scontent.fmlm3-1.fna.fbcdn.net/v/t39.30808-6/296442149_5267192306697873_5685084400771114106_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeGvnHIx_mNSBgyrNZj8uMmA7NB_MyUCc4_s0H8zJQJzj2MGlitOWL71cFCT2gDEFnogymsNBtluHey8EdKNUYdR&_nc_ohc=__vbVW1GYbAAX_IWvcG&_nc_oc=AQn8Nlj6FJ3kkeLzwrxKWU8vG0YOPACfUZEvKM7oQmBNmW6dcb0OFb7M1amwKw31L2aLCy-oXdBv0rdBPTA1-MvS&_nc_ht=scontent.fmlm3-1.fna&oh=00_AfCmGXIwkCv-rHAmUPZ2dOYphHkunEQoBtkf9kTjkAYWuQ&oe=64FF713E';
@@ -73,12 +152,10 @@ $bloque1 = <<<EOF
     <td>
         <img src="https://scontent.fmlm3-1.fna.fbcdn.net/v/t39.30808-6/296442149_5267192306697873_5685084400771114106_n.jpg" width="30" height="30">
     </td>
+
 </tr>
-<tr>
-    <td style="text-align:right;">
-        <strong>FERRETERA EL FOCO</strong>
-    </td>
-</tr>
+
+
 
 
 <br><br><br>
@@ -102,26 +179,37 @@ $bloque1 = <<<EOF
 					
 					
 				</div>
+<br><br>
+<table style="font-size:10px; padding:5px 10px;">
+<tr>
+<td style="width:200px; margin-bottom: 5px;">
+<strong>RFC emisor:</strong>&nbsp;&nbsp;&nbsp;MASG680124B34
+</td>
 
-		<p><strong>RFC emisor:</strong> <span style="font-size:10px;">MASG680124B34</span></p>
-<p><strong>Nombre emisor:</strong> <span style="font-size:3px">GRACIELA MARTINEZ SANDOVAL</span></p>
-<p><strong>RFC receptor:</strong> <span style="font-size:6.5px;">“PUBLICO EN GENERAL”</span></p>
-<p><strong>Codigo postal del receptor:</strong> <span style="font-size:6.5px;">36910</span></p>
-<p><strong>Regimen fiscal receptor:</strong> <span style="font-size:6.5px;">Sin obligaciones fiscales</span></p>
-<p><strong>Uso CFDI:</strong> <span style="font-size:6.5px;">Sin efectos fiscales</span></p>
-
+    </tr>
+    <tr>
+        <td style="width:200px; margin-bottom: 5px;"><strong>Nombre emisor:</strong>&nbsp;&nbsp;&nbsp; GRACIELA MARTINEZ SANDOVAL</td>
+    </tr>
+    <tr>
+        <td style="margin-bottom: 50px;"><strong>RFC receptor:</strong> </td>
+    </tr>
+	<tr>
+	<td style="margin-bottom: 70px;"><strong>Nombre receptor:</strong>&nbsp;&nbsp;&nbsp;"PUBLICO GENERAL" </td>
+</tr>
+    <tr>
+        <td style="margin-bottom: 10px;"><strong>Codigo postal del receptor:</strong>&nbsp;&nbsp;&nbsp; 36910</td>
+    </tr>
+    <tr>
+        <td style="margin-bottom: 5px;"><strong>Regimen fiscal receptor:</strong>&nbsp;&nbsp;&nbsp; Sin obligaciones fiscales</td>
+    </tr>
+    <tr>
+        <td style="margin-bottom: 5px;"><strong>Uso CFDI:</strong>&nbsp;&nbsp;&nbsp; Sin efectos fiscales</td>
+    </tr>
+</table>
 		
 
 
-<br><br>
 
-<p><strong>Folio fiscal::</strong> <span style="font-size:6.5px;">MASG680124B34</span></p>
-<p><strong>Codigo Postal, fecha :</strong> <span style="font-size:6.5px"> 36910  $fecha</span></p>
-<p><strong>RFC receptor:</strong> <span style="font-size:6.5px;"></span></p>
-<p><strong>Nombre receptor:</strong> <span style="font-size:6.5px;">“PUBLICO EN GENERAL”</span></p>
-<p><strong>Efecto de comprobante:</strong> <span style="font-size:6.5px;">Ingreso</span></p>
-<p><strong>Regimen fiscal receptor:</strong> <span style="font-size:6.5px;">Incorporacion Fiscal</span></p>
-<p><strong>Exportancion:</strong> <span style="font-size:6.5px;">No aplica</span></p>
 
 
 			<td style="background-color:white; width:140px">
@@ -150,55 +238,16 @@ $pdf->writeHTML($bloque1, false, false, false, false, '');
 
 $bloque2 = <<<EOF
 
-	<table>
-		
-		<tr>
-			
-			<td style="width:540px"><img src="images/back.jpg"></td>
-		
-		</tr>
-		
-
-	</table>
-
-
-
-
-	<table style="font-size:10px; padding:5px 10px;">
-	
-		<tr>
-		
-			<td style="border: 1px solid #666; background-color:white; width:390px">
-
-				Cliente: $respuestaCliente[nombre]
-
-			</td>
-
-			<td style="border: 1px solid #666; background-color:white; width:150px; text-align:right">
-			
-				Fecha: $fecha
-
-			</td>
-
-		</tr>
-
-		<tr>
-		
-			<td style="border: 1px solid #666; background-color:white; width:540px">Vendedor: $respuestaVendedor[nombre]</td>
-
-		</tr>
-
-		<tr>
-		
-		<td style="border-bottom: 1px solid #666; background-color:white; width:540px"></td>
-
-		</tr>
-
-	</table>
+<table style="font-size:10px; padding:5px 10px; margin-bottom: -5px;">
+    <tr>
+        <td style="border-bottom: 1px solid #666; background-color:white; width:540px"></td>
+    </tr>
+</table>
 
 EOF;
 
 $pdf->writeHTML($bloque2, false, false, false, false, '');
+
 
 // ---------------------------------------------------------
 
@@ -208,10 +257,10 @@ $bloque3 = <<<EOF
 
 		<tr>
 		
-		<td style="border: 1px solid #666; background-color:white; width:260px; text-align:center">Producto</td>
-		<td style="border: 1px solid #666; background-color:white; width:80px; text-align:center">Cantidad</td>
-		<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center">Valor Unit.</td>
-		<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center">Valor Total</td>
+		<td style="border: 1px solid #666; background-color:white; width:260px; text-align:center"><strong>Producto</strong></td>
+		<td style="border: 1px solid #666; background-color:white; width:80px; text-align:center"><strong>Cantidad</strong></td>
+		<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center"><strong>Valor Unit.</strong></td>
+		<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center"><strong>Valor Total</strong></td>
 
 		</tr>
 
@@ -237,7 +286,8 @@ $precioTotal = number_format($item["total"], 2);
 
 $bloque4 = <<<EOF
 
-	<table style="font-size:10px; padding:5px 10px;">
+
+<table style="font-size:10px; padding:5px 10px; border-collapse: collapse;">
 
 		<tr>
 			
@@ -260,6 +310,9 @@ $bloque4 = <<<EOF
 
 		</tr>
 
+
+		
+
 	</table>
 
 
@@ -272,11 +325,13 @@ $pdf->writeHTML($bloque4, false, false, false, false, '');
 // ---------------------------------------------------------
 
 $bloque5 = <<<EOF
+<BR><BR><BR><BR><BR><BR>
+
 
 	<table style="font-size:10px; padding:5px 10px;">
 
 		<tr>
-
+<BR><BR>
 			<td style="color:#333; background-color:white; width:340px; text-align:center"></td>
 
 			<td style="border-bottom: 1px solid #666; background-color:white; width:100px; text-align:center"></td>
@@ -290,10 +345,10 @@ $bloque5 = <<<EOF
 			<td style="border-right: 1px solid #666; color:#333; background-color:white; width:340px; text-align:center"></td>
 
 			<td style="border: 1px solid #666;  background-color:white; width:100px; text-align:center">
-				Neto:
+			<strong>Neto:</strong>
 			</td>
 
-			<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
+			<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:right">
 				$ $neto
 			</td>
 
@@ -304,7 +359,7 @@ $bloque5 = <<<EOF
 			<td style="border-right: 1px solid #666; color:#333; background-color:white; width:340px; text-align:center"></td>
 
 			<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center">
-				Impuesto:
+			<strong>Impuesto:</strong>
 			</td>
 		
 			<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
@@ -318,14 +373,15 @@ $bloque5 = <<<EOF
 			<td style="border-right: 1px solid #666; color:#333; background-color:white; width:340px; text-align:center"></td>
 
 			<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center">
-				Total:
+			<strong>Total:</strong>
 			</td>
 			
 			<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-				$ $total
+			<strong>$ $total</strong>
 			</td>
-
+			
 		</tr>
+		
 
 <br><br><br><br><br><br><br><br><br><br>
 		
@@ -335,6 +391,26 @@ $bloque5 = <<<EOF
 
 
 	</table>
+
+	<table style="font-size: 10px; padding: 5px 10px;">
+   <BR><BR><BR><BR><BR>
+    <!-- Nueva fila para alinear a la izquierda -->
+    <tr>
+	<td colspan="4" style="border: none; text-align: justify; padding-left: 10px;">
+    <strong>Moneda:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peso Mexicano<br>
+    <strong>Forma de pago:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tarjeta de crédito<br>
+    <strong>Método de pago:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pago en una sola exhibición<br>
+    <strong>Condiciones de pago:</strong>&nbsp;&nbsp;&nbsp;CONTADO
+</td>
+
+    </tr>
+    <!-- Resto de la segunda tabla -->
+    <tr>
+        <td></td> <!-- Espacio en blanco -->
+        <td style="border-bottom: 1px solid #666; background-color: white; width: 100px; text-align: center"></td>
+        <td style="border-bottom: 1px solid #666; color: #333; background-color: white; width: 100px; text-align: center"></td>
+    </tr>
+    <tr>
 
 EOF;
 

@@ -1555,3 +1555,16 @@ Stack trace:
 #6 {main}
   thrown in C:\xampp\htdocs\puntoventa\modelos\productos.modelo.php on line 54
 [24-Aug-2023 22:46:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "else", expecting "function" or "const" in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 65
+[07-Sep-2023 22:33:12 America/Bogota] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[07-Sep-2023 22:33:13 America/Bogota] PHP Warning:  copy(\\JOZCHEZ\epson20): Failed to open stream: No such file or directory in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[07-Sep-2023 22:33:13 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012023-09-07...')
+#1 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(219): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(297): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pos\index.php(27): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
