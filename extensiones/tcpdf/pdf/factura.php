@@ -242,23 +242,18 @@ $pdf->writeHTML($bloque2, false, false, false, false, '');
 
 
 // ---------------------------------------------------------
-
 $bloque3 = <<<EOF
-
-	<table style="font-size:10px; padding:5px 10px;">
-
-		<tr>
-		
-		<td style="border: 1px solid #666; background-color:white; width:260px; text-align:center"><strong>Producto</strong></td>
-		<td style="border: 1px solid #666; background-color:white; width:80px; text-align:center"><strong>Cantidad</strong></td>
-		<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center"><strong>Valor Unit.</strong></td>
-		<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center"><strong>Valor Total</strong></td>
-
-		</tr>
-
-	</table>
-
+<table style="font-size: 10px; padding: 5px 10px; border-collapse: collapse; border-top: 1px solid #000; border-bottom: 1px solid #000;">
+    <tr>
+        <td style="border: 1px solid #000; background-color: white; width: 260px; text-align: center"><strong>Producto</strong></td>
+        <td style="border: 1px solid #000; background-color: white; width: 80px; text-align: center"><strong>Cantidad</strong></td>
+        <td style="border: 1px solid #000; background-color: white; width: 100px; text-align: center"><strong>Valor Unit.</strong></td>
+        <td style="border: 1px solid #000; background-color: white; width: 100px; text-align: center"><strong>Valor Total</strong></td>
+    </tr>
+    <!-- Resto de la tabla -->
+</table>
 EOF;
+
 
 $pdf->writeHTML($bloque3, false, false, false, false, '');
 
@@ -320,60 +315,39 @@ $bloque5 = <<<EOF
 <BR><BR><BR><BR><BR><BR>
 
 
-	<table style="font-size:10px; padding:5px 10px;">
+<table style="font-size: 10px; padding: 5px 10px;">
+<!-- Filas anteriores -->
+ <tr>
+	 <td></td> <!-- Espacio en blanco -->
+	 <td style="border-bottom: 1px solid #666; background-color: white; width: 100px; text-align: center"></td>
+	 <td style="border-bottom: 1px solid #666; color: #333; background-color: white; width: 100px; text-align: center"></td>
+ </tr>
+ <tr>
+	 <td style="text-align: left;"> <!-- Alinea a la derecha -->
+		 <strong>Neto:</strong>
+	 </td>
+	 <td style="text-align: left; border: 1px solid #666; background-color: white; width: 100px;">
+		 $ $neto
+	 </td>
+ </tr>
+ <tr>
+	 <td style="text-align: left;"> <!-- Alinea a la derecha -->
+		 <strong>Impuesto:</strong>
+	 </td>
+	 <td style="text-align: left; border: 1px solid #666; background-color: white; width: 100px;">
+		 $ $impuesto
+	 </td>
+ </tr>
+ <tr>
+	 <td style="text-align: left;"> <!-- Alinea a la derecha -->
+		 <strong>Total:</strong>
+	 </td>
+	 <td style="text-align: left; border: 1px solid #666; color: #333; background-color: white; width: 100px;">
+		 <strong>$ $total</strong>
+	 </td>
+ </tr>
 
-		<tr>
-<BR><BR>
-			<td style="color:#333; background-color:white; width:340px; text-align:center"></td>
 
-			<td style="border-bottom: 1px solid #666; background-color:white; width:100px; text-align:center"></td>
-
-			<td style="border-bottom: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center"></td>
-
-		</tr>
-		
-		<tr>
-		
-			<td style="border-right: 1px solid #666; color:#333; background-color:white; width:340px; text-align:center"></td>
-
-			<td style="border: 1px solid #666;  background-color:white; width:100px; text-align:center">
-			<strong>Neto:</strong>
-			</td>
-
-			<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:right">
-				$ $neto
-			</td>
-
-		</tr>
-
-		<tr>
-
-			<td style="border-right: 1px solid #666; color:#333; background-color:white; width:340px; text-align:center"></td>
-
-			<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center">
-			<strong>Impuesto:</strong>
-			</td>
-		
-			<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-				$ $impuesto
-			</td>
-
-		</tr>
-
-		<tr>
-		
-			<td style="border-right: 1px solid #666; color:#333; background-color:white; width:340px; text-align:center"></td>
-
-			<td style="border: 1px solid #666; background-color:white; width:100px; text-align:center">
-			<strong>Total:</strong>
-			</td>
-			
-			<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			<strong>$ $total</strong>
-			</td>
-			
-		</tr>
-		
 
 <br><br><br><br><br><br><br><br><br><br>
 		
